@@ -1,0 +1,269 @@
+hello master
+Iteration number: 1
+Execution of gRPC calls to Mappers:
+Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: SUCCESS
+Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Centroids after iteration 1:
+17.085968017578125,47.1321907043457
+26.627286911010742,66.95052337646484
+26.30191421508789,65.9975814819336
+Iteration number: 2
+Execution of gRPC calls to Mappers:
+Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: SUCCESS
+Mapper 2: FAILED
+Retry - Mapper 2: FAILED
+Retry - Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Centroids after iteration 2:
+17.01199722290039,46.94932556152344
+26.71343421936035,66.85833740234375
+26.33434295654297,66.41586303710938
+Iteration number: 3
+Execution of gRPC calls to Mappers:
+Mapper 1: FAILED
+Retry - Mapper 1: SUCCESS
+Mapper 2: FAILED
+Retry - Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Centroids after iteration 3:
+16.964500427246094,46.831912994384766
+26.58092498779297,66.92131805419922
+26.53843116760254,66.55191040039062
+Iteration number: 4
+Execution of gRPC calls to Mappers:
+Mapper 1: SUCCESS
+Mapper 2: FAILED
+Retry - Mapper 2: FAILED
+Retry - Mapper 2: FAILED
+Retry - Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Centroids after iteration 4:
+16.873586654663086,46.60717010498047
+26.691146850585938,66.80535888671875
+26.567230224609375,67.04743957519531
+Iteration number: 5
+Execution of gRPC calls to Mappers:
+Mapper 1: SUCCESS
+Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Centroids after iteration 5:
+16.830055236816406,46.49955749511719
+26.70168685913086,67.04533386230469
+26.620819091796875,66.98969268798828
+Iteration number: 6
+Execution of gRPC calls to Mappers:
+Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: SUCCESS
+Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Centroids after iteration 6:
+16.470561981201172,45.61086654663086
+25.188753128051758,68.00890350341797
+28.477346420288086,67.47989654541016
+Iteration number: 7
+Execution of gRPC calls to Mappers:
+Mapper 1: SUCCESS
+Mapper 2: FAILED
+Retry - Mapper 2: FAILED
+Retry - Mapper 2: FAILED
+Retry - Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Centroids after iteration 7:
+16.421430587768555,45.489410400390625
+25.54978370666504,68.05939483642578
+28.239282608032227,67.6084976196289
+Iteration number: 8
+Execution of gRPC calls to Mappers:
+Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: FAILED
+Retry - Mapper 1: SUCCESS
+Mapper 2: FAILED
+Retry - Mapper 2: SUCCESS
+Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: FAILED
+Retry - Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Centroids after iteration 8:
+16.40545082092285,45.44990539550781
+25.6650333404541,68.07551574707031
+28.161476135253906,67.65052795410156
+Iteration number: 9
+Execution of gRPC calls to Mappers:
+Mapper 1: SUCCESS
+Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Centroids after iteration 9:
+16.284276962280273,45.150360107421875
+26.506074905395508,68.19314575195312
+27.565326690673828,67.9725570678711
+Iteration number: 10
+Execution of gRPC calls to Mappers:
+Mapper 1: FAILED
+Retry - Mapper 1: SUCCESS
+Mapper 2: SUCCESS
+Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: FAILED
+Retry - Mapper 3: SUCCESS
+Execution of gRPC calls to Reducers:
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: FAILED
+Retry - Reducer 2: SUCCESS
+Reducer 1: SUCCESS
+Reducer 2: SUCCESS
+Centroids after iteration 10:
+16.21408462524414,44.97684097290039
+26.968158721923828,68.25777435302734
+27.21495246887207,68.16181945800781

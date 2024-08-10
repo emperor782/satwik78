@@ -1,0 +1,40 @@
+syntax = "proto3";
+
+package map_reduce;
+
+message Point {
+  float x = 1;
+  float y = 2;
+}
+
+message MapRequest {
+  string split_path = 1;
+  int32 mapper_id = 2;
+}
+
+message MapResponse {
+  string message = 1;
+}
+
+message ReducerRequest {
+  int32 mapper_id = 1;
+  int32 reducer_id = 2;
+}
+
+message ReduceResponse {
+  string message = 1;
+}
+
+// New message for sending partition data from mapper to reducer
+message PartitionData {
+  repeated string lines = 1;
+}
+
+service Mapper {
+  rpc Map(MapRequest) returns (MapResponse);
+  rpc GetPartitionData(ReducerRequest) returns (PartitionData);
+}
+
+service Reducer {
+  rpc Reduce(ReducerRequest) returns (ReduceResponse);
+}
